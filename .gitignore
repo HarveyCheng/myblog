@@ -1,3 +1,3 @@
-/vendor
-/node_modules
+ssh_rsa
+ssh_rsa.pub
 .env
