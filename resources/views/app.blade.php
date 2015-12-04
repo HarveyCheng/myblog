@@ -35,6 +35,9 @@
 				<ul class="nav navbar-nav">
 					<li><a href="{{ url('/') }}">Home</a></li>
 				</ul>
+				<ul class="nav navbar-nav">
+					<li><a href="{{ url('/admin/articles') }}">文章管理</a></li>
+				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
 					@if (Auth::guest())
