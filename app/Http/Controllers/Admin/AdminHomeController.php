@@ -5,6 +5,8 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
+use App\Article;
+
 class AdminHomeController extends Controller {
 
 	/**
